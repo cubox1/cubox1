@@ -92,16 +92,3 @@ u-boot, который выложен тут, поддерживает ext4-fs. 
 
 ## Готовые образы
 В папке images находится готовый образ получившийся из пунктов, описанных выше. Основной раздел на флешке (из этого образа) имеет ext4-fs, поэтому "родной" загрузчик, который поставлялся в оригинальном CuBox его не поймет (сам я по понятным причинам этого не проверял, но из того, что прочитал за последние сутки, вывод сделал).
-
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-91079717-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
