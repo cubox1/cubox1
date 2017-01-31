@@ -1,8 +1,9 @@
----
+-
 
 Так как GitHub прислал письмо оплатить размещение сверх 1Гб, то прежнюю репку прешлось удалить.  
 Папка boot: https://www.dropbox.com/s/0v7ic4j6atnlqo4/cubox-installer-snapshot29012012.zip?dl=0  
-u-boot-*.bin: http://myplugbox.com/oldcubox/  
+u-boot-\*.bin: http://myplugbox.com/oldcubox/  
+Вот так было в первоначальном виде:
 ```
 $ tree
 .
@@ -31,7 +32,8 @@ $ tree
 ├── u-boot-cubox_hynix_cubox_2GB_uart.bin
 └── u-boot-cubox_hynix_cubox_unified_spi.bin
 ```
----
+
+-
 
 # CuBox1
 
