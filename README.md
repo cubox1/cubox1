@@ -1,3 +1,38 @@
+---
+
+Так как GitHub прислал письмо оплатить размещение сверх 1Гб, то прежнюю репку прешлось удалить.  
+Папка boot: https://www.dropbox.com/s/0v7ic4j6atnlqo4/cubox-installer-snapshot29012012.zip?dl=0  
+u-boot-*.bin: http://myplugbox.com/oldcubox/  
+```
+$ tree
+.
+├── README.md
+├── boot
+│   ├── boot.scr
+│   ├── boot.scr.hdmi
+│   ├── boot.scr.serial
+│   ├── burn-u-boot-and-start-installer-serial.txt
+│   ├── burn-u-boot-and-start-installer.txt
+│   ├── images
+│   │   ├── boot.scr
+│   │   ├── modules.tar.xz
+│   │   ├── rootfs.tar.xz
+│   │   ├── rootfs.xbmc.trial.tar.xz
+│   │   ├── uImage
+│   │   ├── ubuntu-mmc0p1.txt
+│   │   └── ubuntu-mmc0p2.txt
+│   ├── initrd.img
+│   ├── install.sh
+│   ├── u-boot.bin
+│   └── uImage
+├── images
+│   └── ubuntu10.img.xz
+├── u-boot-cubox_hynix_cubox_1GB_uart.bin
+├── u-boot-cubox_hynix_cubox_2GB_uart.bin
+└── u-boot-cubox_hynix_cubox_unified_spi.bin
+```
+---
+
 # CuBox1
 
 ## Как оживить CuBox1
